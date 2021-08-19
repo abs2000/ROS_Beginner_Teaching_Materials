@@ -48,8 +48,7 @@ Here are a few methods to get around this:
 1) arguably the easiest way is to click **restart** (on the desktop start menu) while holding the **shift key**. This will take you to a menu entitled **Choose an option** where you will need to press **Troubleshoot** > **Advanced options** > **UEFI Firmware Settings** and proceed to restart. This will automatically reboot the system into the UEFI. This is the first tip described in this video: https://youtu.be/yPLvBo5UCv0 - *thankfully u only need to watch the first minute*
 2) Alternatively, if u wish to try frantically pressing a key again, you can stop "fast start-up" by navigating to your **control panel** then selecting **Hardware and Sound** > **Power Options**, then press **"choose what the power buttons do"** (located on the left section of the window), this will take you to the **System Settings**. Finally, click the **Change settings that are currently unavailable**, uncheck the **Turn on fast start-up** and click **save changes**. This should give you an opportunity to press the relevant keys to enter the Boot Menu.
 3) If the above two methods have not solved the issue then the PC can be forced to go to the menu described in the first method by turning the PC off completely through holding the **power button** until loss of power. Then turn on and off again once it begins to load until the computer begins to run a **recovery process**. usually after repeating the process 3 times. **Warning: This is a last resort and it could be done a lot easier by using the first method**
-
-another video to help reach the BIOS: https://youtu.be/IMr5-mEbhTs
+4) For those still struggling here is another video to help reach the BIOS: https://youtu.be/IMr5-mEbhTs
 
 Once you've found yourself at the Boot Menu(in the BIOS) you will either need to move the **Boot from USB drive** to the **top of the list**, or select **USB drive**.
 
