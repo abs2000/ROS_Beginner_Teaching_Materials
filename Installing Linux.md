@@ -27,7 +27,7 @@ http://releases.ubuntu.com/18.04/ and selecting the appropriate **desktop versio
 3) Make sure that the following is selected for each section:
 * Under **Device**, select your **USB drive**.
 * Under **Boot selection** select and navigate to the **.iso Ubuntu desktop image** that you downloaded in step 1. 
-* Under **Partition scheme** select **MBR**.
+* Under **Partition scheme** select **MBR**.computer
 * Under **Target system** select **BIOS or UEFI**.
 
 [insert an image]
@@ -51,43 +51,41 @@ Here are a few methods to get around this:
 
 another video to help reach the BIOS: https://youtu.be/IMr5-mEbhTs
 
-Once you've found yourself at the Boot Menu(in the BIOS), Move the **Boot from USB drive** to the **top of the list**.
+Once you've found yourself at the Boot Menu(in the BIOS) you will either need to move the **Boot from USB drive** to the **top of the list**, or select **USB drive**.
 
+If the install for linux doesn't appear and the computer still runs windows, you can temporarily disable the **windows boot manager** in the BIOS, then try again.
 
 ### Installing Linux
 Once your PC has booted from the USB drive, you will see a purple GNU which you can use to select to boot Ubuntu.
 
 You will be given the option to either run Linux without installation, or to install Linux. Selecting install Linux will take you to the installation guide. You can then pick to install Linux alongside your OS or to erase your disk and install Linux (this will wipe out your current OS along with any files you have such that the only thing is Linux).
 
-Choose the option that you wish and follow the installation guide.
+**Warning:** We recommend choosing whether to run linux alongside your OS, or to erase the disk, before picking an option, as it will be extremely difficult to change your mind after the process is done. You have been warned!!
 
 ### Common Issues 
 **Wi-fi not connecting:** you may find that, following installation, Ubuntu doesn't want to connect to the internet. A few solutions to this include:
 
-1) 
-* Simply restarting the computer - this could work if your Linux recognises other networks but fails to connect to them.
-2) 
-* Connecting the PC to your internet via a wired connection and downloading updates - once connected, open the terminal (by hitting Ctrl+Alt+T) and type into the terminal
+1) Simply restarting the computer - this could work if your Linux recognises other networks but fails to connect to them.
+2) Connecting the PC to your internet via a wired connection and downloading updates - once connected, open the terminal (by hitting Ctrl+Alt+T) and type into the terminal
 ```
 sudo apt update && sudo apt upgrade 
 ```
 * reboot the Linux. 
-* If you were to encounter an error stating *unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?* then try rebooting the PC.
+* You may encounter an error stating: **unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?**. If this error depicted comes up there are a few possible options to try, this link goes through each of them: https://itsfoss.com/could-not-get-lock-error/. Though it is likely you will just need to wait a while for background updates to complete.
 
 
 ## Installation via virtual simulation
-If preparing a bootable disk and running it on your PC is too much of a hassle, then you could, alternatively, run via a virtual simulation on your PC. To do this, you will need to download a virtual machine emulator such as VMware.
+If preparing a bootable disk and running it on your PC is too much of a hassle, then you could, alternatively, run via a virtual simulation on your PC. To do this, you will need to download a virtual machine emulator such as **VMware**.
 
-1) Download Ubuntu 18.04 desktop image by clicking the following link:
-http://releases.ubuntu.com/18.04/ and selecting the appropriate desktop version for your PC. This will download a .iso file onto your PC.
+1) Download Ubuntu 18.04 desktop image by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate desktop version for your PC. This will download a .iso file onto your PC.
 
-2) Download VMware Workstation Player from the following link: https://www.vmware.com/uk/products/workstation-player.html
+2) Download VMware Workstation Player from the following link: https://www.vmware.com/uk/products/workstation-player.html p.s. You want to download the suitable one for your current OS. For example the **windows VM** for a **windows OS**.
 
-3) Run VMware and, once it has loaded, select *Create a New Virtual Machine*
+3) Run VMware and, once it has loaded, select **Create a New Virtual Machine**.
 
-4) Select *Installer disc image file (iso)* and browse for the Ubuntu desktop image then click *Next*
+4) Select **Installer disc image file (iso)** and browse for the Ubuntu desktop image then click **Next**.
 
-5) Follow the installation guide - you will also be asked to specify the disk size and whether you wish for the virtual disk to be stored as a single file or as multiple files.
+5) Follow the installation guide - you will also be asked to specify the disk size and whether you wish for the virtual disk to be stored as a single file or as multiple files. Here you could just follow the recommended or default settings.
 
 ### Common Issues
 You may find that the virtual disk keeps crashing due to a few issues
