@@ -77,7 +77,7 @@ sudo apt update && sudo apt upgrade
 ## Installation via virtual simulation
 If preparing a bootable disk and running it on your PC is too much of a hassle, then you could, alternatively, run via a virtual simulation on your PC. To do this, you will need to download a virtual machine emulator such as **VMware**.
 
-1) Download Ubuntu 18.04 desktop image by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate desktop version for your PC. This will download a .iso file onto your PC.
+1) Download **Ubuntu 18.04 desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate desktop version for your PC. This will download a .iso file onto your PC.
 
 2) Download VMware Workstation Player from the following link: https://www.vmware.com/uk/products/workstation-player.html p.s. You want to download the suitable one for your current OS. For example the **windows VM** for a **windows OS**.
 
