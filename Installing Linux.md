@@ -86,8 +86,8 @@ Upon installing Linux it may seem daunting to navigate your way around, but worr
 
 ## Keyboard shortcuts
 As some may not have used Linux before we have prepared a few important key shortcuts that may come in handy:
-ctrl-alt-T : open terminal
-ctrl-shift-V: paste in the terminal
+* ctrl-alt-T : open terminal
+* ctrl-shift-V: paste in the terminal
 
 ## Keyboard layout
 Sometimes after installing linux you may find that certain keys are in a differnt position to what you are used to. This may be because the linux you have installed is using a different keyboard layout. 
