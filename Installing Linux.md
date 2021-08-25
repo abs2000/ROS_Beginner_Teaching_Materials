@@ -82,9 +82,19 @@ You may find that the virtual disk keeps crashing due to a few issues
 * Too slow - you may find that navigating the basic Linux interface is slow and that program is too slow. You can attempt allocating it more RAM by 
 
 # Linux Cheat Sheet
+Upon installing Linux it may seem daunting to navigate your way around, but worry not we have provided a few handy tips, directions and advice to get you accustomed to linux as quickly as possible.
+
+## Keyboard shortcuts
 As some may not have used Linux before we have prepared a few important key shortcuts that may come in handy:
+ctrl-alt-T : open terminal
+ctrl-shift-V: paste in the terminal
 
+## Keyboard layout
+Sometimes after installing linux you may find that certain keys are in a differnt position to what you are used to. This may be because the linux you have installed is using a different keyboard layout. 
 
+In order to change your keyboard layout go to **settings** > **Language and Region** > Then click the **'+'** sign and add the keyboard in the languague of your choosing.
 
+In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
 
+# Glossary
 
