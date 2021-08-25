@@ -1,14 +1,11 @@
+*Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide 
 
 # Installing Linux
-In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring.
+In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. 
 
 1) Via **dual boot** on your Personal computer(PC) - this is where you would install the Linux operating system(OS), such that it runs the Linux OS as well as your own OS. You can switch between the operating systems at reboot.
 2) Via **full installation** on your PC - this is where you would install the Linux OS as the **only** operating system running on your PC. **Warning:** this will wipe out all exiting OS, programs, files etc...
 3) Via a **virtual machine(VM)** running on your PC - here you would download VM software that emulates the Linux environment. You can also download VM's that have both Linux and the Robotic operating system(ROS) installed. 
-
-
-
-
 
 ## Options 1 & 2 (Installation via dual boot / Full installation)
 
@@ -83,6 +80,10 @@ You may find that the virtual disk keeps crashing due to a few issues
 * You have an anti virus software installed that is conflicted with VMware - remedied by changing the anti virus software
 * You haven't enabled virtualisation in your Bios settings (common if you have a new computer) - reboot computer and press either the *F1*, *F2*, *F4* *Delete* or the *Esc* keys.
 * Too slow - you may find that navigating the basic Linux interface is slow and that program is too slow. You can attempt allocating it more RAM by 
+
+# Linux Cheat Sheet
+As some may not have used Linux before we have prepared a few important key shortcuts that may come in handy:
+
 
 
 
