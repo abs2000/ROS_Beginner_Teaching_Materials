@@ -1,5 +1,8 @@
 *Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide 
 
+# Contents:
+https://github.com/abs2000/ROS_Beginner_Teaching_Materials/blob/updates/Installing%20Linux.md#keyboard-layout
+
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. 
 
