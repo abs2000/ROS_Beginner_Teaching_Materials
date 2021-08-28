@@ -1,20 +1,18 @@
 *Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide 
 
 # Contents:
-Installing Linux:
-
-  Installation via dual boot / Full installation:
-
-* Preparing the bootable USB stick:
-* Booting from the USB:
-* Installing linux:
-* Common issues:
-* Installation via virtual machine:
-* Common issues:
-Linux Cheat sheet:
-* Keyboard shortcuts:
-* Keyboard layout:
-Glossary:
+1. Installing Linux:
+1.1 Installation via dual boot / Full installation:
+1.1.1 Preparing the bootable USB stick:
+1.1.2  Booting from the USB:
+1.1.3 Installing linux:
+1.1.4 Common issues:
+1.2 Installation via virtual machine:
+1.2.1 Common issues:
+2. Linux Cheat sheet:
+2.1 Keyboard shortcuts:
+2.2 Keyboard layout:
+3. Glossary:
 
 
 # Installing Linux
@@ -115,16 +113,16 @@ In order to change your keyboard layout go to **settings** > **Language and Regi
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
 
 # Glossary
-OS - Operating system:
+**OS - Operating system**: The low-level software that supports a computer's basic functions, such as scheduling tasks and controlling peripherals.
 
-GNU - :
+**GNU** : The GNU is an extensive collection of free software, which can be used as an operating system or can be used in parts with other operating systems.
 
-PC - Personal Computer:
+**PC - Personal Computer**: a computer designed for use by one person at a time.
 
-VM - Virtual Machine:
+**VM - Virtual Machine**: A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps.
 
-ROS - Robotic Operating System:
+**ROS - Robotic Operating System**: ROS is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management.
 
-BIOS - :
+**BIOS - Basic Input/Output System**: the BIOS (pronounced bye-oss) is a ROM chip found on motherboards that allows you to access and set up your computer system at the most basic level. 
 
-UEFI - :
+**UEFI - Unified Extensible Firmware Interface**: provides the same functions as the BIOS
