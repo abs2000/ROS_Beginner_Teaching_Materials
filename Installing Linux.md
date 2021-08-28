@@ -1,7 +1,21 @@
 *Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide 
 
 # Contents:
-https://github.com/abs2000/ROS_Beginner_Teaching_Materials/blob/updates/Installing%20Linux.md#keyboard-layout
+Installing Linux:
+
+  Installation via dual boot / Full installation:
+
+* Preparing the bootable USB stick:
+* Booting from the USB:
+* Installing linux:
+* Common issues:
+* Installation via virtual machine:
+* Common issues:
+Linux Cheat sheet:
+* Keyboard shortcuts:
+* Keyboard layout:
+Glossary:
+
 
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. 
@@ -89,8 +103,9 @@ Upon installing Linux it may seem daunting to navigate your way around, but worr
 
 ## Keyboard shortcuts
 As some may not have used Linux before we have prepared a few important key shortcuts that may come in handy:
-* ctrl-alt-T : open terminal
-* ctrl-shift-V: paste in the terminal
+* **ctrl-alt-T** : open terminal (can also left click in desktop)
+* **ctrl-shift-V**: paste in the terminal
+* There is also a list of all the keyboard shortcuts for linux located at **Settings** > **Devices** > **Keyboard**.
 
 ## Keyboard layout
 Sometimes after installing linux you may find that certain keys are in a differnt position to what you are used to. This may be because the linux you have installed is using a different keyboard layout. 
@@ -100,4 +115,16 @@ In order to change your keyboard layout go to **settings** > **Language and Regi
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
 
 # Glossary
+OS - Operating system:
 
+GNU - :
+
+PC - Personal Computer:
+
+VM - Virtual Machine:
+
+ROS - Robotic Operating System:
+
+BIOS - :
+
+UEFI - :
