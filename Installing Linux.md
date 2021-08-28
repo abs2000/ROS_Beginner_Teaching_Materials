@@ -2,18 +2,17 @@
 
 # Contents:
 1. Installing Linux:
-1.1 Installation via dual boot / Full installation:
-1.1.1 Preparing the bootable USB stick:
-1.1.2  Booting from the USB:
-1.1.3 Installing linux:
-1.1.4 Common issues:
-1.2 Installation via virtual machine:
-1.2.1 Common issues:
+    1. Installation via dual boot / Full installation:
+        1.  Preparing the bootable USB stick:
+        2.  Booting from the USB:
+        3.   Installing linux:
+        4.    Common issues:
+    2. Installation via virtual machine:
+        1. Common issues:
 2. Linux Cheat sheet:
-2.1 Keyboard shortcuts:
-2.2 Keyboard layout:
+    1. Keyboard shortcuts:
+    2. Keyboard layout:
 3. Glossary:
-
 
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. 
