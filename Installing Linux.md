@@ -1,18 +1,18 @@
 *Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide 
 
 # Contents:
-1. Installing Linux: https://bit.ly/3joBWXB
-    1. Installation via dual boot / Full installation: https://bit.ly/3BoJKP6
-        1. Preparing the bootable USB stick: https://bit.ly/2Wy5yZO
-        2. Booting from the USB: https://bit.ly/3yrQda4
-        3. Linux Install: https://bit.ly/2Wz8wgN
-        4. Common issues: https://bit.ly/3sUXRc7
-    2. Installation via virtual machine: https://bit.ly/38pYhO2
-        1. Common issues: https://bit.ly/3gKCnK9
-2. Linux Cheat sheet: https://bit.ly/3DqQv4X
-    1. Keyboard shortcuts: https://bit.ly/3BsS4O5
-    2. Keyboard layout: https://bit.ly/3ypsbwn
-3. Glossary: https://bit.ly/3sTsOgM
+1. Installing Linux - https://bit.ly/3joBWXB
+    1. Installation via dual boot / Full installation - https://bit.ly/3BoJKP6
+        1. Preparing the bootable USB stick - https://bit.ly/2Wy5yZO
+        2. Booting from the USB - https://bit.ly/3yrQda4
+        3. Linux Install - https://bit.ly/2Wz8wgN
+        4. Common issues - https://bit.ly/3sUXRc7
+    2. Installation via virtual machine - https://bit.ly/38pYhO2
+        1. Common issues - https://bit.ly/3gKCnK9
+2. Linux Cheat sheet - https://bit.ly/3DqQv4X
+    1. Keyboard shortcuts - https://bit.ly/3BsS4O5
+    2. Keyboard layout - https://bit.ly/3ypsbwn
+3. Glossary - https://bit.ly/3sTsOgM
 
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. 
@@ -41,7 +41,7 @@ To use the USB as a medium to install linux, the USB must first be made bootable
 * Under **Target system** select **BIOS or UEFI**.
 4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
 
-![Desired_Rufus_Input](DesiredRufusInput.png)
+![Desired_Rufus_Input](Desired_Rufus_Input.PNG)
 
 Once completed, you will have a bootable USB drive that you can use to run and install Linux.
 
@@ -113,22 +113,22 @@ In order to change your keyboard layout go to **settings** > **Language and Regi
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
 
 UK English keyboard:
-![UK_keyboard](UK_keyboard.png)
+![UK_keyboard](UK_keyboard.PNG)
 
 US English keyboard:
-![US_keyboard](US_keyboard.png)
+![US_keyboard](US_keyboard.PNG)
 
 # Glossary
-**OS - Operating system**: The low-level software that supports a computer's basic functions, such as scheduling tasks and controlling peripherals.
+**BIOS - Basic Input/Output System**: the BIOS (pronounced bye-oss) is a ROM chip found on motherboards that allows you to access and set up your computer system at the most basic level. 
 
 **GNU** : The GNU is an extensive collection of free software, which can be used as an operating system or can be used in parts with other operating systems.
 
-**PC - Personal Computer**: a computer designed for use by one person at a time.
+**OS - Operating system**: The low-level software that supports a computer's basic functions, such as scheduling tasks and controlling peripherals.
 
-**VM - Virtual Machine**: A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps.
+**PC - Personal Computer**: a computer designed for use by one person at a time.
 
 **ROS - Robotic Operating System**: ROS is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management.
 
-**BIOS - Basic Input/Output System**: the BIOS (pronounced bye-oss) is a ROM chip found on motherboards that allows you to access and set up your computer system at the most basic level. 
-
 **UEFI - Unified Extensible Firmware Interface**: provides the same functions as the BIOS
+
+**VM - Virtual Machine**: A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps.
