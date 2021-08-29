@@ -39,8 +39,9 @@ To use the USB as a medium to install linux, the USB must first be made bootable
 * Under **Boot selection** select and navigate to the **.iso Ubuntu desktop image** that you downloaded in step 1. 
 * Under **Partition scheme** select **MBR**.
 * Under **Target system** select **BIOS or UEFI**.
-
 4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
+
+![Desired_Rufus_Input](Desired_Rufus_Input.png)
 
 Once completed, you will have a bootable USB drive that you can use to run and install Linux.
 
@@ -110,6 +111,12 @@ Sometimes after installing linux you may find that certain keys are in a differn
 In order to change your keyboard layout go to **settings** > **Language and Region** > Then click the **'+'** sign and add the keyboard in the languague of your choosing.
 
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
+
+UK English keyboard:
+![UK_keyboard](UK_keyboard.png)
+
+US English keyboard:
+![US_keyboard](US_keyboard.png)
 
 # Glossary
 **OS - Operating system**: The low-level software that supports a computer's basic functions, such as scheduling tasks and controlling peripherals.
