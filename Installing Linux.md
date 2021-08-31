@@ -32,16 +32,17 @@ It is advisable to make backup copies of all of your files before proceeding wit
 
 ### Preparing the bootable USB Stick
 To use the USB as a medium to install linux, the USB must first be made bootable. This process is described below. **Warning:** The contents of your USB will be deleted, so make sure it is empty or you have a backup of it's content.
-1) Download Ubuntu 18.04 **desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate **desktop version** for your PC. This will download a **.iso file** onto your PC.
-2) Plug in your USB drive and open the Rufus software
-3) Make sure that the following is selected for each section:
-* Under **Device**, select your **USB drive**.
-* Under **Boot selection** select and navigate to the **.iso Ubuntu desktop image** that you downloaded in step 1. 
-* Under **Partition scheme** select **MBR**.
-* Under **Target system** select **BIOS or UEFI**.
-4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
+1. Download Ubuntu 18.04 **desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate **desktop version** for your PC. This will download a **.iso file** onto your PC.
+2. Plug in your USB drive and open the Rufus software
+3. Make sure that the following is selected for each section:
+    * Under **Device**, select your **USB drive**.
+    * Under **Boot selection** select and navigate to the **.iso Ubuntu desktop image** that you downloaded in step 1. 
+    * Under **Partition scheme** select **MBR**.
+    * Under **Target system** select **BIOS or UEFI**.
 
 ![Desired_Rufus_Input](Desired_Rufus_Input.PNG)
+
+4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
 
 Once completed, you will have a bootable USB drive that you can use to run and install Linux.
 
@@ -112,10 +113,10 @@ In order to change your keyboard layout go to **settings** > **Language and Regi
 
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
 
-UK English keyboard:
+**UK English keyboard:**
 ![UK_keyboard](UK_keyboard.PNG)
 
-US English keyboard:
+**US English keyboard:**
 ![US_keyboard](US_keyboard.PNG)
 
 # Glossary
