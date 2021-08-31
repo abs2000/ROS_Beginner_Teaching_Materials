@@ -4,32 +4,63 @@
 ## Concepts To Understand
 ### Terminals 
 
-When you press **Ctrl+Alt+T** a window appears which looks similar to the command prompt used in Windows - this is called a **terminal**. It's purpose is to act as a visual interface whereby you type in the commands into the terminal and see the output through that terminal. The **shell** is the software behind the terminal that interprets the commands and executes them into the operating system services. Bash is a particular type of shell which is referred to in some tutorials - another one is zsh . For the purpose of these tutorials, we will stick to the default bash. 
+Pressing **Ctrl+Alt+T** will open a window,similar to the command prompt used in Windows, called the **terminal**.
+* **Terminal** - acts as a visual interface whereby you type in the commands into the terminal and see the output through that terminal. 
+* **Shell** - is the software behind the terminal that interprets the commands and executes them into the operating system services.
+* **Bash** - is a particular type of shell which is referred to in some tutorials - another one is **zsh** however, for the purpose of these tutorials, we will stick to the default bash. 
 
 ### ROS "Distributions" 
 
-The different versions of ROS are called **distributions**. The rule is that each successive version of ROS is given a different name and the first letter of that name changes alphabetically with each new distribution (version).  
-
-For more information you can  read up on the different distributions  by following this link: 
+The different versions of ROS are called **distributions**. Each successive version of ROS is given a different name and the first letter of that name changes alphabetically with each new distribution (version). For more info on this topic, read up on the different distributions at this link: 
 http://wiki.ros.org/Distributions
 
-The distribution we are using is **ROS Melodic** as this is the one most commonly used here in Manchester and it is one of the most stable. 
+The distribution we are using is **ROS Melodic** as this is most commonly used here in Manchester and it is one of the most stable. 
 
 ## Installing ROS Melodic onto Linux
-Now that you Linux up and running, you need to download ROS. The link below will take you to the official tutorial for downloading ROS Melodic. 
+Now that you have Linux up and running, you need to download ROS. To begin this process you will need to open the Terminal by pressing **Ctrl+Alt+T**. Follow the instructions below to install Linux. **Bear in mind:** Some commands require a paassword. When typing your password, it will appear as if you are not typing anything into the terminal but, in fact, it is taking in the input of your keys. Carefully put in your password and click Enter.
 
+To download ROS you will need the following commands, you can copy commands and paste them in the terminal using Ctrl+Shift+V.
 
-http://wiki.ros.org/melodic/Installation/Ubuntu
+### 1. Setup your sources.list
+Setup your computer to accept software from packages.ros.org. 
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
+### 2. Set up your keys
+```
+sudo apt install curl # if you haven't already installed curl
+```
+```
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+```
+### 3. Installation
+First, make sure your Debian package index is up-to-date: 
+```
+sudo apt update
+```
+Desktop-Full Install: ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators and 2D/3D perception
+```
+sudo apt install ros-melodic-desktop-full
+```
+To find available packages, use: 
+```
+apt search ros-melodic
+```
+### 4. Envoronment setup
+In order to use ROS commands, you need to make sure that the shell knows where to find the ROS commands are (imagine it like inserting a library at the beginning of writing your code). 
 
-**Few things to bear in mind:**
-* You will be asked to enter your password -  when typing your password, it will appear as if you are not typing anything into the terminal but, in fact, it is taking in the input of your keys. Carefully put in your password and click Enter.
-* When instructed to enter code, open up the terminal (by pressing Ctrl+Alt+T) and typing out the commands.
- * * You can copy commands and paste them in the terminal using Ctrl+Shift+V
-* **Section 1.4** talks about the different ways you can install ROS but make sure to stick to the **Desktop-Full Install: (Recommended)** 
-* In reference to **Section 1.5**, in order to use ROS commands, you need to make sure that the shell knows where to find the ROS commands are (imagine it like inserting a library at the beginning of writing your code). 
+It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched: 
 ```
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+```
+```
 source ~/.bashrc
+```
+_If you have more than one ROS distribution installed, ~/.bashrc must only source the setup.bash for the version you are currently using._
+
+If you just want to change the environment of your current shell, instead of the above you can type:
+```
+source /opt/ros/melodic/setup.bash
 ```
 
 * Be aware that that if you mistype this command, you may have some unintentional outocmes:
