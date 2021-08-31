@@ -49,7 +49,7 @@ apt search ros-melodic
 ### 4. Envoronment setup
 In order to use ROS commands, you need to make sure that the shell knows where to find the ROS commands are (imagine it like inserting a library at the beginning of writing your code). 
 
-It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched: 
+It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched, the following commands will ensure this: 
 ```
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 ```
@@ -64,36 +64,33 @@ source /opt/ros/melodic/setup.bash
 ```
 
 * Be aware that that if you mistype this command, you may have some unintentional outocmes:
-
-* * The >> here means that it will append to (add to) the .bashrc file. Only using > is incorrect.
-* *  The .bashrc file is the file that the shell automatically refers to when searching for the commands that you type into the terminal
-* * Missing the dot in the .bashrc part will simply lead to you creating a new text file called bashrc in your home folder. This is not what you are intending for.
+  * The >> here means that it will append to (add to) the .bashrc file. Only using > is incorrect.
+  * The .bashrc file is the file that the shell automatically refers to when searching for the commands that you type into the terminal
+  * Missing the dot in the .bashrc part will simply lead to you creating a new text file called bashrc in your home folder. This is not what you are intending for.
 
 ## Checking that you have ROS installed correctly
 
- *  You can check that you have completed section 1.5 correctly by typing the following into a new command terminal:
+*  You can check that you have completed section 1.5 correctly by typing the following into a new command terminal:
 ```
 echo $PATH 
 ```
-* * If set up correctly then the outcome should be something similar to: 
+  * If set up correctly then the outcome should be something similar to: 
 
 ![echoPATH](echoPATH.png)
-
-
 
 
 * Completing all the sections up to **Section 1.6** means that now you should have ROS downloaded. You can check this by typing out the following command in a new terminal:
 ```
 roscore
 ```
-* * The outcome of this should be as follows:
+  * The outcome of this should be as follows:
 ![roscore](roscore.png)
 
 * Another thing to check is that the environment variables are correctly installed. To do this, type the following into a new command terminal:
 ```
 printenv | grep ROS
 ```
-* * The outcome of which should be:
+  * The outcome of which should be:
 
 ![greprOS](grepROS.png)
 
