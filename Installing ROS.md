@@ -46,7 +46,7 @@ To find available packages, use:
 ```
 apt search ros-melodic
 ```
-### 4. Envoronment setup
+### 4. Environment setup
 In order to use ROS commands, you need to make sure that the shell knows where to find the ROS commands are (imagine it like inserting a library at the beginning of writing your code). 
 
 It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched, the following commands will ensure this: 
@@ -58,15 +58,15 @@ source ~/.bashrc
 ```
 _If you have more than one ROS distribution installed, ~/.bashrc must only source the setup.bash for the version you are currently using._
 
-If you just want to change the environment of your current shell, instead of the above you can type:
-```
-source /opt/ros/melodic/setup.bash
-```
-
 * Be aware that that if you mistype this command, you may have some unintentional outocmes:
   * The >> here means that it will append to (add to) the .bashrc file. Only using > is incorrect.
   * The .bashrc file is the file that the shell automatically refers to when searching for the commands that you type into the terminal
   * Missing the dot in the .bashrc part will simply lead to you creating a new text file called bashrc in your home folder. This is not what you are intending for.
+
+If you just want to change the **environment of your current shell**, instead of the above you can type:
+```
+source /opt/ros/melodic/setup.bash
+```
 
 ## Checking that you have ROS installed correctly
 
