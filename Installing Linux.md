@@ -15,11 +15,13 @@
 3. [Glossary](https://bit.ly/3sTsOgM) 
 
 # Installing Linux
-In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. 
+In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. 
 
 1) Via **dual boot** on your Personal computer(PC) - this is where you would install the Linux operating system(OS), such that it runs the Linux OS as well as your own OS. You can switch between the operating systems at reboot.
 2) Via **full installation** on your PC - this is where you would install the Linux OS as the **only** operating system running on your PC. **Warning:** this will wipe out all exiting OS, programs, files etc...
 3) Via a **virtual machine(VM)** running on your PC - here you would download VM software that emulates the Linux environment. You can also download VM's that have both Linux and the Robotic operating system(ROS) installed. 
+
+On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. **p.s. Ubuntu 18.04 is required to run ROS melodic, So be careful not to install the shiny new version of Ubuntu as you will have issues running ROS melodic.**
 
 ## Options 1 & 2 (Installation via dual boot / Full installation)
 
@@ -40,7 +42,7 @@ To use the USB as a medium to install linux, the USB must first be made bootable
     * Under **Partition scheme** select **MBR**.
     * Under **Target system** select **BIOS or UEFI**.
 
-![Desired_Rufus_Input](Desired_Rufus_Input.PNG)
+        ![Desired_Rufus_Input](Desired_Rufus_Input.PNG)
 
 4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
 
