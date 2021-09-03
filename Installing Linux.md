@@ -42,7 +42,7 @@ To use the USB as a medium to install linux, the USB must first be made bootable
     * Under **Partition scheme** select **MBR**.
     * Under **Target system** select **BIOS or UEFI**.
 
-        ![Desired_Rufus_Input](Desired_Rufus_Input.PNG)
+        ![Desired_Rufus_Input](Linux_guide_pics/ Desired_Rufus_Input.PNG)
 
 4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
 
