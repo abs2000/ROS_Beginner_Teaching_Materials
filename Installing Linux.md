@@ -117,6 +117,7 @@ As some may not have used Linux before we have prepared a few important key shor
 Sometimes after installing linux you may find that certain keys are in a differnt position to what you are used to. This may be because the linux you have installed is using a different keyboard layout. 
 
 In order to change your keyboard layout go to **settings** > **Language and Region** > Then click the **'+'** sign and add the keyboard in the languague of your choosing.
+![Linux_keyboard](Linux_guide_pics/Linux_keyboard.PNG)
 
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
 
