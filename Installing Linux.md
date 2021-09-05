@@ -92,7 +92,7 @@ If preparing a bootable disk and running it on your PC is too much of a hassle, 
 
 1) Download **Ubuntu 18.04 desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate desktop version for your PC. This will download a .iso file onto your PC.
 2) Download **VMware Workstation Player** from the following link: https://www.vmware.com/uk/products/workstation-player.html p.s. You want to download the suitable one for your current OS. For example the **windows VM** for a **windows OS**.
-![VM_download](Linux_guide_pics/VM_download.PNG)
+![VM_download_1](Linux_guide_pics/VM_download_1.PNG)
 4) Run VMware and, once it has loaded, select **Create a New Virtual Machine**.
 5) Select **Installer disc image file (iso)** and browse for the Ubuntu desktop image then click **Next**.
 6) Follow the installation guide - you will also be asked to specify the disk size and whether you wish for the virtual disk to be stored as a single file or as multiple files. Here you could just follow the recommended or default settings.
