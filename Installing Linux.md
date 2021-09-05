@@ -29,14 +29,16 @@ To use either of these methosd you will need:
 1) Your PC.
 2) A USB stick with a minimum storage of 4 GB (Check on USB or through PC).
 3) A bootable software, we personally recommend **Rufus** - this can be found by following this link: https://rufus.ie/en/ and selecting the latest stable version to download.
+    ![Rufus_download](Linux_guide_pics/Rufus_download.PNG)
 
 It is advisable to make backup copies of all of your files before proceeding with the download and installation of Linux OS. This could be done by **creating a system restore point** (search google for instructions) or by saving important files onto a **USB**, **Google drive**, or another form of your choosing.
 
 ### Preparing the bootable USB Stick
 To use the USB as a medium to install linux, the USB must first be made bootable. This process is described below. **Warning:** The contents of your USB will be deleted, so make sure it is empty or you have a backup of it's content.
 1. Download Ubuntu 18.04 **desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate **desktop version** for your PC. This will download a **.iso file** onto your PC.
-2. Plug in your USB drive and open the Rufus software
-3. Make sure that the following is selected for each section:
+    ![Ubuntu_desktop_image](Linux_guide_pics/Ubuntu_desktop_image.PNG)
+3. Plug in your USB drive and open the Rufus software
+4. Make sure that the following is selected for each section:
     * Under **Device**, select your **USB drive**.
     * Under **Boot selection** select and navigate to the **.iso Ubuntu desktop image** that you downloaded in step 1. 
     * Under **Partition scheme** select **MBR**.
@@ -68,6 +70,7 @@ If the install for linux doesn't appear and the computer still runs windows, you
 Once your PC has booted from the USB drive, you will see a purple GNU which you can use to select to boot Ubuntu.
 
 You will be given the option to either run Linux without installation, or to install Linux. Selecting install Linux will take you to the installation guide. You can then pick to install Linux alongside your OS or to erase your disk and install Linux (this will wipe out your current OS along with any files you have such that the only thing is Linux).
+![Ubuntu_choice](Linux_guide_pics/Ubuntu_choice.PNG)
 
 **Warning:** We recommend choosing whether to run linux alongside your OS, or to erase the disk, before picking an option, as it will be extremely difficult to change your mind after the process is done. You have been warned!!
 
@@ -88,9 +91,10 @@ If preparing a bootable disk and running it on your PC is too much of a hassle, 
 
 1) Download **Ubuntu 18.04 desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate desktop version for your PC. This will download a .iso file onto your PC.
 2) Download **VMware Workstation Player** from the following link: https://www.vmware.com/uk/products/workstation-player.html p.s. You want to download the suitable one for your current OS. For example the **windows VM** for a **windows OS**.
-3) Run VMware and, once it has loaded, select **Create a New Virtual Machine**.
-4) Select **Installer disc image file (iso)** and browse for the Ubuntu desktop image then click **Next**.
-5) Follow the installation guide - you will also be asked to specify the disk size and whether you wish for the virtual disk to be stored as a single file or as multiple files. Here you could just follow the recommended or default settings.
+![VM_download](Linux_guide_pics/VM_download.PNG)
+4) Run VMware and, once it has loaded, select **Create a New Virtual Machine**.
+5) Select **Installer disc image file (iso)** and browse for the Ubuntu desktop image then click **Next**.
+6) Follow the installation guide - you will also be asked to specify the disk size and whether you wish for the virtual disk to be stored as a single file or as multiple files. Here you could just follow the recommended or default settings.
 
 ### Common Issues
 You may find that the virtual disk keeps crashing due to a few issues
