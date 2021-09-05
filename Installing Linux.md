@@ -71,7 +71,7 @@ If the install for linux doesn't appear and the computer still runs windows, you
 Once your PC has booted from the USB drive, you will see a purple GNU which you can use to select to boot Ubuntu.
 
 You will be given the option to either run Linux without installation, or to install Linux. Selecting install Linux will take you to the installation guide. You can then pick to install Linux alongside your OS or to erase your disk and install Linux (this will wipe out your current OS along with any files you have such that the only thing is Linux).
-![Ubuntu_choice](Linux_guide_pics/Ubuntu_choice.PNG)
+![Ubuntu_choice](Linux_guide_pics/Ubuntu_choice.png)
 
 **Warning:** We recommend choosing whether to run linux alongside your OS, or to erase the disk, before picking an option, as it will be extremely difficult to change your mind after the process is done. You have been warned!!
 
