@@ -29,7 +29,8 @@ To use either of these methosd you will need:
 1) Your PC.
 2) A USB stick with a minimum storage of 4 GB (Check on USB or through PC).
 3) A bootable software, we personally recommend **Rufus** - this can be found by following this link: https://rufus.ie/en/ and selecting the latest stable version to download.
-    ![Rufus_download](Linux_guide_pics/Rufus_download.PNG)
+
+![Rufus_download](Linux_guide_pics/Rufus_download.PNG)
 
 It is advisable to make backup copies of all of your files before proceeding with the download and installation of Linux OS. This could be done by **creating a system restore point** (search google for instructions) or by saving important files onto a **USB**, **Google drive**, or another form of your choosing.
 
@@ -118,6 +119,7 @@ As some may not have used Linux before we have prepared a few important key shor
 Sometimes after installing linux you may find that certain keys are in a differnt position to what you are used to. This may be because the linux you have installed is using a different keyboard layout. 
 
 In order to change your keyboard layout go to **settings** > **Language and Region** > Then click the **'+'** sign and add the keyboard in the languague of your choosing.
+
 ![Linux_keyboard](Linux_guide_pics/Linux_keyboard.PNG)
 
 In the case that you have special characters in your password and are unable to login due to the change in keyboard, we will attach mappings of important keys for both the **English(US)** and **English(UK)** keyboards.
