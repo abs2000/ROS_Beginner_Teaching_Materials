@@ -106,7 +106,10 @@ You may find that the virtual disk keeps crashing due to a few issues
 * Not enough space on hard drive - remedied by freeing up space on your hard drive
 * You have an anti virus software installed that is conflicted with VMware - remedied by changing the anti virus software
 * You haven't enabled virtualisation in your Bios settings (common if you have a new computer) - reboot computer and press either the *F1*, *F2*, *F4* *Delete* or the *Esc* keys.
-* Too slow - you may find that navigating the basic Linux interface is slow and that program is too slow. You can attempt allocating it more RAM by 
+* Too slow? - you may find that navigating the basic Linux interface is slow, this is often due to a lack of available RAM. You can attempt to allocate the VM more RAM by pressing **"Edit virtual machine settings"** in the VM menu (_shown in the first image below_). You will then be greeted with a slider (_shown in the second image below_) that will allow you to change the amount of allocated RAM. **However, be aware that the available RAM is limited and other processes on the computer may slow down if too much RAM is allocated to the VM.** This issue may also be due to having other processes running in the background, so you can also try closing all other windows and applications to improve speed.
+
+    ![VM_RAM](Linux_guide_pics/VM_RAM.PNG)
+    ![RAM](Linux_guide_pics/RAM.PNG)
 
 # Linux Cheat Sheet
 Upon installing Linux it may seem daunting to navigate your way around, but worry not we have provided a few handy tips, directions and advice to get you accustomed to linux as quickly as possible.
