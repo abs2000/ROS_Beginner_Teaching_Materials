@@ -17,7 +17,7 @@ http://wiki.ros.org/Distributions
 The distribution we are using is **ROS Melodic** as this is most commonly used here in Manchester and it is one of the most stable. 
 
 ## Installing ROS Melodic onto Linux
-Now that you have Linux up and running, you need to download ROS. To begin this process you will need to open the Terminal by pressing **Ctrl+Alt+T**. Follow the instructions below to install Linux. **Bear in mind:** Some commands require a paassword. When typing your password, it will appear as if you are not typing anything into the terminal but, in fact, it is taking in the input of your keys. Carefully put in your password and click Enter.
+Now that you have Linux up and running, you need to download ROS. To begin this process you will need to open the Terminal by pressing **Ctrl+Alt+T**. Follow the instructions below to install Linux. **Bear in mind:** Some commands require a password. When typing your password, it will appear as if you are not typing anything into the terminal but, in fact, it is taking in the input of your keys. Carefully put in your password and click Enter.
 
 To download ROS you will need the following commands, you can copy commands and paste them in the terminal using Ctrl+Shift+V.
 
