@@ -1,23 +1,25 @@
 *Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide.*
 
-**This is part 1 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson. If you fiind mistakes in the documents please let us know so changes can be made.**
+**This is part 1 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson. If you find mistakes in the documents please let us know so changes can be made.**
 
 # Using GitHub
 You may notice that this series of guides are being hosted on GitHub. GitHub is a web-based version-control and collaboration platform for software developers. This allows us to create a space for all of the necessary documents, images and information while giving you (our viewers) quick and easy access to all of that information **(for free)**. 
 
-## Key functions
-
+**Key functions:**
+* You will notice that there is a series of 3 parrallel lines in the top left corner of the box this document is in. Press this to easily navigate through the document to the sections you need.
+* 
 
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. 
 
 1) Via **dual boot** on your Personal computer(PC) - this is where you would install the Linux operating system(OS), such that it runs the Linux OS as well as your own OS. You can switch between the operating systems at reboot.
-2) Via **full installation** on your PC - this is where you would install the Linux OS as the **only** operating system running on your PC. **Warning:** this will wipe out all exiting OS, programs, files etc...
+2) Via **full installation** on your PC - this is where you would install the Linux OS as the **only** operating system running on your PC. **Warning: this will wipe out all exiting OS, programs, files etc...**
 3) Via a **virtual machine(VM)** running on your PC - here you would download VM software that emulates the Linux environment. You can also download VM's that have both Linux and the Robotic operating system(ROS) installed. 
 
 On the surface this may seem like an easy task but there are a lot of issues that you may face along the way. We will highlight some of the issues we encountered and offer solutions, so you dont have to go through the stress that unknown errors bring. Further help will be provided at the end of this guide to make using the installed linux an easy process. **p.s. Ubuntu 18.04 is required to run ROS melodic, So be careful not to install the shiny new version of Ubuntu as you will have issues running ROS melodic.**
 
 ## Options 1 & 2 (Installation via dual boot / Full installation)
+**It is advisable to make backup copies of all of your important files before proceeding with the download and installation of Linux OS. This could be done by creating a system restore point (search google for instructions) or by saving important files onto a USB, Google drive, or another form of your choosing.**
 
 To use either of these methosd you will need:
 1) Your PC.
@@ -25,8 +27,6 @@ To use either of these methosd you will need:
 3) A bootable software, we personally recommend **Rufus** - this can be found by following this link: https://rufus.ie/en/ and selecting the latest stable version to download.
 
 ![Rufus_download](Linux_guide_pics/Rufus_download.PNG)
-
-It is advisable to make backup copies of all of your files before proceeding with the download and installation of Linux OS. This could be done by **creating a system restore point** (search google for instructions) or by saving important files onto a **USB**, **Google drive**, or another form of your choosing.
 
 ### Preparing the bootable USB Stick
 To use the USB as a medium to install linux, the USB must first be made bootable. This process is described below. **Warning:** The contents of your USB will be deleted, so make sure it is empty or you have a backup of it's content.
