@@ -1,8 +1,11 @@
 *Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide.*
 
-**This is part 1 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson.**
+**This is part 1 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson. If you fiind mistakes in the documents please let us know so changes can be made.**
 
 # Using GitHub
+You may notice that this series of guides are being hosted on GitHub. GitHub is a web-based version-control and collaboration platform for software developers. This allows us to create a space for all of the necessary documents, images and information while giving you (our viewers) quick and easy access to all of that information **(for free)**. 
+
+## Key functions
 
 
 # Installing Linux
