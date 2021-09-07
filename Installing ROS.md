@@ -30,6 +30,10 @@ Setup your computer to accept software from packages.ros.org.
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
 ### 2. Set up your keys
+First, make sure your Debian package index is up-to-date: 
+```
+sudo apt update
+```
 ```
 sudo apt install curl # if you haven't already installed curl
 ```
@@ -37,10 +41,7 @@ sudo apt install curl # if you haven't already installed curl
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
 ### 3. Installation
-First, make sure your Debian package index is up-to-date: 
-```
-sudo apt update
-```
+
 Desktop-Full Install: ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators and 2D/3D perception
 ```
 sudo apt install ros-melodic-desktop-full
