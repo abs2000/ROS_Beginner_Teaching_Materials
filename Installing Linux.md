@@ -1,18 +1,9 @@
-*Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide 
+*Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide.*
 
-# Contents:
-1. [Installing Linux](https://bit.ly/3joBWXB)
-    1. [Installation via dual boot / Full installation](https://bit.ly/3BoJKP6) 
-        1. [Preparing the bootable USB stick](https://bit.ly/2Wy5yZO) 
-        2. [Booting from the USB](https://bit.ly/3yrQda4) 
-        3. [Linux Install](https://bit.ly/2Wz8wgN) 
-        4. [Common issues](https://bit.ly/3sUXRc7) 
-    2. [Installation via virtual machine](https://bit.ly/38pYhO2) 
-        1. [Common issues](https://bit.ly/3gKCnK9) 
-2. [Linux Cheat sheet](https://bit.ly/3DqQv4X) 
-    1. [Keyboard shortcuts](https://bit.ly/3BsS4O5) 
-    2. [Keyboard layout](https://bit.ly/3ypsbwn) 
-3. [Glossary](https://bit.ly/3sTsOgM) 
+**This is part 1 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson.**
+
+# Using GitHub
+
 
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. 
