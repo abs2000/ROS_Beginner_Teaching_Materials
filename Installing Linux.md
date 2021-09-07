@@ -7,7 +7,11 @@ You may notice that this series of guides are being hosted on GitHub. GitHub is 
 
 **Key functions:**
 * You will notice that there is a series of 3 parrallel lines in the top left corner of the box this document is in. Press this to easily navigate through the document to the sections you need.
-* 
+* other than the above there isn't much more that can be explained simply in this document, so instead here are 3 links that will help you understand and use GitHub easily.
+    * Firstly, [Gihub's 'Github guide'](https://guides.github.com/activities/hello-world/). This will give a good idea of what Github is about, and how to use it.
+    * [Microsoft intro to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/) This is a guide for git made by microsoft.
+    * [Git youtube tutorial](https://www.youtube.com/watch?v=DVRQoVRzMIY) This video has timestamps and a basic overview of the main aspects of Git to know.
+    
 
 # Installing Linux
 In this guide we will be going through how to install and run Linux Ubuntu 18.04 in 3 ways. 
@@ -24,7 +28,7 @@ On the surface this may seem like an easy task but there are a lot of issues tha
 To use either of these methosd you will need:
 1) Your PC.
 2) A USB stick with a minimum storage of 4 GB (Check on USB or through PC).
-3) A bootable software, we personally recommend **Rufus** - this can be found by following this link: https://rufus.ie/en/ and selecting the latest stable version to download.
+3) A bootable software, we personally recommend **Rufus** - follow this [Rufus install](https://rufus.ie/en/) link and select the latest stable version to download.
 
 ![Rufus_download](Linux_guide_pics/Rufus_download.PNG)
 
@@ -32,8 +36,8 @@ To use either of these methosd you will need:
 To use the USB as a medium to install linux, the USB must first be made bootable. This process is described below. **Warning:** The contents of your USB will be deleted, so make sure it is empty or you have a backup of it's content.
 1. Download Ubuntu 18.04 **desktop image** by clicking the following link: http://releases.ubuntu.com/18.04/ and selecting the appropriate **desktop version** for your PC. This will download a **.iso file** onto your PC.
     ![Ubuntu_desktop_image](Linux_guide_pics/Ubuntu_desktop_image.PNG)
-3. Plug in your USB drive and open the Rufus software
-4. Make sure that the following is selected for each section:
+2. Plug in your USB drive and open the Rufus software
+3. Make sure that the following is selected for each section:
     * Under **Device**, select your **USB drive**.
     * Under **Boot selection** select and navigate to the **.iso Ubuntu desktop image** that you downloaded in step 1. 
     * Under **Partition scheme** select **MBR**.
@@ -41,7 +45,7 @@ To use the USB as a medium to install linux, the USB must first be made bootable
 
         ![Desired_Rufus_Input](Linux_guide_pics/Desired_Rufus_Input.PNG)
 
-4) Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
+4. Click **start** and wait until the process is complete. You may get a prompt informing you that the disk image is an **'iso hybrid'** and a recommendation to install it as a .iso image - **choose the .iso image option**. Rufus may also give you a prompt seeking permission to download further files - **click agree/yes**.
 
 Once completed, you will have a bootable USB drive that you can use to run and install Linux.
 
