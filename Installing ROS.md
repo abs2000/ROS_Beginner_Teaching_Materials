@@ -63,11 +63,9 @@ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 ```
 source ~/.bashrc
 ```
-_If you have more than one ROS distribution installed, ~/.bashrc must only source the setup.bash for the version you are currently using._
-
 * Be aware that that if you mistype this command, you may have some unintentional outocmes:
-  * The >> here means that it will append to (add to) the .bashrc file. Only using > is incorrect.
-  * The .bashrc file is the file that the shell automatically refers to when searching for the commands that you type into the terminal
+  * The >> here means that it will append to (add to) the .bashrc file. Using only one > will overwrite your entire .bashrc file.
+  * The .bashrc file is used to set up environment variables, aliases and set preferences for your bash shell.
   * Missing the dot in the .bashrc part will simply lead to you creating a new text file called bashrc in your home folder. This is not what you are intending for.
 
 If you just want to change the **environment of your current shell**, instead of the above you can type:
