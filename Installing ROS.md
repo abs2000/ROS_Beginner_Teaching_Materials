@@ -72,37 +72,9 @@ If you just want to change the **environment of your current shell**, instead of
 ```
 source /opt/ros/melodic/setup.bash
 ```
-
-## Checking that you have ROS installed correctly
-
-*  You can check that you have completed section 1.5 correctly by typing the following into a new command terminal:
-```
-echo $PATH 
-```
-  * If set up correctly then the outcome should be something similar to: 
-
-![echoPATH](echoPATH.png)
-
-
-* Completing all the sections up to **Section 1.6** means that now you should have ROS downloaded. You can check this by typing out the following command in a new terminal:
-```
-roscore
-```
-  * The outcome of this should be as follows:
-![roscore](roscore.png)
-
-* Another thing to check is that the environment variables are correctly installed. To do this, type the following into a new command terminal:
-```
-printenv | grep ROS
-```
-  * The outcome of which should be:
-
-![greprOS](grepROS.png)
-
-
-## Installing some dependencies
+### 5. Installing some dependencies
  
- At this pouint, the last stage is to download some final dependencies that will allow you to some important ROS tools. 
+ At this point, the last stage is to download some final dependencies that will allow you to some important ROS tools. 
 
  In a new terminal, type in the following commands:
 
@@ -121,4 +93,30 @@ printenv | grep ROS
  The output of which should be the following:
  ![rosUpdate](rosUpdate.png)
 
- 
+## Checking that you have ROS installed correctly
+
+*  You can check that you have completed **section 4** correctly by typing the following into a new command terminal:
+```
+echo $PATH 
+```
+  * If set up correctly then the outcome should be something similar to: 
+
+![echoPATH](echoPATH.png)
+
+
+* Completing all the sections up to **Section 5** means that now you should have ROS downloaded. You can check this by typing out the following command in a new terminal:
+```
+roscore
+```
+  * The outcome of this should be as follows:
+![roscore](roscore.png)
+
+**Notice: After getting this output you will no longer be able to type in the terminal, so you need to shutdown the roslaunch server with ctrl-c.**
+
+* Another thing to check is that the environment variables are correctly installed. To do this, type the following into a new command terminal:
+```
+printenv | grep ROS
+```
+  * The outcome of which should be:
+
+![greprOS](grepROS.png)
