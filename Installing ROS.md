@@ -1,3 +1,6 @@
+Disclaimer: Many links to external sites, such as youtube and other online guides, will be used. These were not created by the creators of this guide.
+
+This is part 2 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson. If you find mistakes in the documents please let us know so changes can be made.
 
 # Installing ROS onto Linux
 
