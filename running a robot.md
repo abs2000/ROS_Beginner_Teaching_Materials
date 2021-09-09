@@ -28,7 +28,7 @@ This can be summed up in the following analogy. You are in a room (ROS Master) w
 
 ### 1. Install Robot
 
-Let's attempt to install a virtual industrial robot from Clearpath Robotics. Firstly, enter the following commands in a new terminal (simply click on the clipboard to the right of the code box, after hovering over it, to copy the contents). **Use a lowercase 'y' to accept the installs** when asked in the terminals.
+Let's attempt to install a virtual industrial robot from Clearpath Robotics. Firstly, enter the following commands in a new terminal (if you are on a computer simply click on the clipboard to the right of the code box, after hovering over it, to copy the contents). **Use a lowercase 'y' to accept the installs** when asked in the terminals.
 
 ```
 sudo apt-get update
