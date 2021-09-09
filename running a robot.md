@@ -4,7 +4,7 @@
 ## Concepts to understand
 
 ### ROS Master, Node and Topics
-To have a good understanding of how ROW works, you need to have  a brief understanding of what the ROS Master, Node and Topic is.
+To have a good understanding of how ROS works, you need to have  a brief understanding of what the ROS Master, Node and Topic is.
 
 **ROS Master:** the central unit which allows for all nodes to locate each other and connect to each other.
 
