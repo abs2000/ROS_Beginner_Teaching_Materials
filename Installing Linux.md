@@ -7,6 +7,7 @@ You may notice that this series of guides are being hosted on GitHub. GitHub is 
 
 **Key functions:**
 * You will notice that there is a series of 3 parrallel lines in the top left corner of the box this document is in. Press this to easily navigate through the document to the sections you need.
+* if you are on a computer simply click on the clipboard to the right of the code box, after hovering over it, to copy the contents. This will be handy in the next parts of this guide.
 * other than the above there isn't much more that can be explained simply in this document, so instead here are 3 links that will help you understand and use GitHub easily. **It isn't necessary to go through these to understand the guide, but the links are here to give you a better understanding of Git and GitHub if you need it.**
     * Firstly, [Gihub's 'Github guide'](https://guides.github.com/activities/hello-world/). This will give a good idea of what Github is about, and how to use it.
     * [Microsoft intro to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/) This is a guide for git made by microsoft.
