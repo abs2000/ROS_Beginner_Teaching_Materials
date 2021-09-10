@@ -34,8 +34,7 @@ Let's attempt to install a virtual industrial robot from Clearpath Robotics. Fir
 sudo apt-get update
 ```
 ```
-sudo apt-get install ros-melodic-husky-desktop
-sudo apt-get install ros-melodic-husky-simulator
+sudo apt-get install -y ros-melodic-husky-desktop ros-melodic-husky-simulator
 ```
 ### 2. Launch Gazebo
 
@@ -49,36 +48,7 @@ The following window should appear:
 
 In front of you is the Gazebo program with a robot spawned into an empty world. You **must** ensure the **terminal** you used to launch Gazebo is left open, to stop Gazebo from closing. You can minimize the terminal to keep it out of the way. 
 
-### 3. Move the Robot with Software
-In a new a terminal, type the following command:
-
-```
-rostopic pub /husky_velocity_controller/cmd_vel geometry_msgs/Twist "linear:
-        x: 0.5
-        y: 0.0
-        z: 0.0
-angular:
-        x: 0.0
-        y: 0.0
-        z: 0.0" -r 10
-```
-You should see the robot simulation in your Gazebo window move forward. Within the Gazebo window you should be able to drag the robot by left clicking and dragging. To stop the robot moving, return to the terminal and press **Ctrl+C**. **Warning: the command lines above will only work if an instance of Gazebo has already been opened.**
-
-### 4. Take control of the Robot
-after pressing **Ctrl+C** or reopening the terminal, enter the following command:
-```
-sudo apt-get install ros-melodic-teleop-twist-keyboard
-``` 
-If you have the "husky robot" up and running in Gazebo, you can now open another terminal and enter:
-```
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-```
-You should be able to see the following output:
-![teleop](teleop.png)
-
-At this point, you can use your keyboard to control the husky simulation using the keys noted above. The keys **"u"**, **"i"**, **"o"**, **"j"**, **"k"**, **"l"**, **"m"**, **","** and **"."** control the movement of the Robot, while **"q/z"**, **"w/x"** and **"e/c"** increase and decrease speed in 3 different ways respectively, as seen in the image above.
-
-## Using Gazebo Program
+### 3. Using the Gazebo Program
 
 In Gazebo, you have a few different things that you can do.
 
@@ -102,6 +72,36 @@ In Gazebo, you have a few different things that you can do.
 3) In Gazebo, you can insert different objects from a given library. In the left hand pane, navigate the mouse to 'insert' and underneath you will see links to stores that have an array of models that you can insert
 
 ![insert models](insert_models.png)
+
+### 4. Move the Robot with Software
+In a new a terminal, type the following command:
+
+```
+rostopic pub /husky_velocity_controller/cmd_vel geometry_msgs/Twist "linear:
+        x: 0.5
+        y: 0.0
+        z: 0.0
+angular:
+        x: 0.0
+        y: 0.0
+        z: 0.0" -r 10
+```
+You should see the robot simulation in your Gazebo window move forward. Within the Gazebo window you should be able to drag the robot by left clicking and dragging. To stop the robot moving, return to the terminal and press **Ctrl+C**. **Warning: the command lines above will only work if an instance of Gazebo has already been opened.**
+
+### 5. Take control of the Robot
+after pressing **Ctrl+C** or reopening the terminal, enter the following command:
+```
+sudo apt-get install ros-melodic-teleop-twist-keyboard
+``` 
+If you have the "husky robot" up and running in Gazebo, you can now open another terminal and enter:
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+You should be able to see the following output:
+![teleop](teleop.png)
+
+At this point, you can use your keyboard to control the husky simulation using the keys noted above. The keys **"u"**, **"i"**, **"o"**, **"j"**, **"k"**, **"l"**, **"m"**, **","** and **"."** control the movement of the Robot, while **"q/z"**, **"w/x"** and **"e/c"** increase and decrease speed in 3 different ways respectively, as seen in the image above.
+
 ## Tutorial Exercises
 
 1) Download a **Jackal Robot** and launch it in an empty world
@@ -144,7 +144,7 @@ roslaunch husky_gazebo husky_empty_world.launch
 ```
 *The command **roslaunch** allows for multiple nodes to be started up. This commands requires for the package name (in this case it is husky_gazebo) and a launch file (husky_empty_world.launch).*
 
-## part 3
+## part 4
 ```
 rostopic pub /husky_velocity_controller/cmd_vel geometry_msgs/Twist "linear:
         x: 0.5
@@ -159,7 +159,7 @@ angular:
 
 *Pressing **Ctrl+C** whilst in a terminal causes the process to be killed off. In this instance, you are stopping the message from being published to the robot telling it to move.*
 
-## part 4
+## part 5
 ```
 sudo apt-get install ros-melodic-teleop-twist-keyboard
 ``` 
