@@ -36,8 +36,6 @@ sudo apt-get update
 ```
 sudo apt-get install -y ros-melodic-husky-desktop ros-melodic-husky-simulator
 ```
-*These two commands (after sudo apt-get update) are to install the **husky simulator**.*
-
 ### 2. Launch Gazebo
 
 At this point, you have downloaded a "husky" robot from Clearpath Robotics. Now enter the following comand:
@@ -46,8 +44,12 @@ roslaunch husky_gazebo husky_empty_world.launch
 ```
 *The command **roslaunch** allows for multiple nodes to be started up. This commands requires for the package name (in this case it is **husky_gazebo**) and a launch file (**husky_empty_world.launch**).*
 
-The following window should appear:
+You will get the error below upon running the line above, this is completely normal!:
+![Normal_error](Normal_error.png)
 
+However if you get additional errors, we have noted the errors we found and suitable fixes for them at this link: 
+
+The following window should appear:
 ![gazebointro](gazebointro.png)
 
 In front of you is the Gazebo program with a robot spawned into an empty world. You **must** ensure the **terminal** you used to launch Gazebo is left open, to stop Gazebo from closing. You can minimize the terminal to keep it out of the way. 
