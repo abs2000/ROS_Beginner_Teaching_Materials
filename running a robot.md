@@ -135,10 +135,13 @@ sudo apt-get update
 ```
 sudo apt-get install -y ros-melodic-jackal-desktop ros-melodic-jackal-simulator
 ```
-The name of the package is jackal_gazebo and the launch file is called empty_world.launch
+The name of the package is jackal_gazebo and the launch file is called empty_world.launch. _Hint: look at how we launched Gazebo in **part 2** of **"Getting a Robot up and Running"**_
+
+You should see this when Gazebo opens:
+![Jackal Robot](Robot_images/Jackal.PNG)
 
 2) Navigate the Jackal Robot around, from your keyboard. 
-_Hint: The same package that was used in part 5 of **"Getting a Robot up and Running"**_
+_Hint: The same package that was used in **part 5** of **"Getting a Robot up and Running"**_
 
 3) Using simple objects, create a course for the Jackal robot to move around the course
 
