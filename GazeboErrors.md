@@ -48,8 +48,7 @@ entering into the terminal:
 ```
 poweroff
 ```
-Relaunch VMPlayer, right click on the name of your virtual machine and select Virtual
-Machine Settings.
+Relaunch VMPlayer, right click on the name of your virtual machine and select "Settings...".
 ![Virtual Machine Settings Screenshot](GazeboErrorImages/VMPlayerSettings.png)
 In the Hardware Options tab, under Display, uncheck Accelerate 3D Graphics.
 Save the changes and exit. 
