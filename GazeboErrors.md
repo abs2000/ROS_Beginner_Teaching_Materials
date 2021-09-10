@@ -40,7 +40,9 @@ Save the new file and exit the text editor. Now when you relaunch a Gazebo world
 should be gone. If not double check the file you just edited for typos.
 
 ## VMware: vmw_ioctl_command error Invalid argument.
-This error has something to do with the way VMPlayer handles graphics acceleration.
+This error has something to do with the way VMPlayer handles graphics acceleration. You will see this:
+![Virtual machine error](GazeboErrorImages/VM_error.PNG)
+
 To fix the error, properly shutdown the virtual machine either using the shutdown menu or by
 entering into the terminal:
 ```
