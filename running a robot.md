@@ -45,14 +45,14 @@ roslaunch husky_gazebo husky_empty_world.launch
 *The command **roslaunch** allows for multiple nodes to be started up. This commands requires for the package name (in this case it is **husky_gazebo**) and a launch file (**husky_empty_world.launch**).*
 
 You will get the error below upon running the line above, this is completely normal!:
-![Normal_error](Normal_error.png)
+![Normal_error](Robot_images/Normal_error.png)
 
-However if you get additional errors, we have noted the errors we found and suitable fixes for them at this link: 
+However if you get additional errors, we have noted the errors we found and suitable fixes for them at this link [Known Errors](GazeboErrors.md). We have found that you will likely have these additional error if you chose the **virtual machine route**.
 
 The following window should appear:
 ![gazebointro](gazebointro.png)
 
-In front of you is the Gazebo program with a robot spawned into an empty world. You **must** ensure the **terminal** you used to launch Gazebo is left open, to stop Gazebo from closing. You can minimize the terminal to keep it out of the way. 
+In front of you is the Gazebo program with a robot spawned into an empty world. **You must ensure the terminal you used to launch Gazebo is left open, to stop Gazebo from closing**. You can minimize the terminal to keep it out of the way. 
 
 ### 3. Using the Gazebo Program
 
@@ -65,8 +65,9 @@ In Gazebo, you have a few different things that you can do.
 *Sourced from http://gazebosim.org/hotkeys.html*
 
 2) You should be able to see a bar ontop of the 3D viewport in Gazebo as shown:
-![3dnavbar](3dnavbar.png)
-    * The first four options are tools to inteact  with objects in the 3D environment. The mouse to select objects and, once selected, using the other three tools to either move, rotate or scale the object.
+![Gazebo top bar](Robot_images/Gazebo_top_bar.png)
+    * The first four options are tools to interact with objects in the 3D environment. 
+      * Firstly, from left to right, the selection mode (shaped as a mouse) allows you to select objects and move the screen. It's shortcut is **Esc**.
     * The next two options are the undo and redo buttons.
     * The next three options are to insert objects should you wish to do so.
     * The following three options are concerned with how the light is rendered (you don't need to worry about that now).
