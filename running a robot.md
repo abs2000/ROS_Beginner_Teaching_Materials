@@ -78,6 +78,8 @@ In Gazebo, you have a few different things that you can do.
     * Then the Snap mode icon.
     * The following cube icon is the perception tool this enabling you to view the port from any side and to view the objects in either perspective mode or orthographic mode.
     * The last four options enables you to take a screenshot (picture of the world), log results, plot data and record a video of the simulation (mp4 option included).
+    
+    Some of the keyboard shortcuts to change mode have been identified above, however there is a more complete list at **Help** > **Hotkey Chart** in the Gazebo program. 
 
 3) In Gazebo, you can insert different objects from a given library. In the left hand pane, navigate the mouse to 'insert' and underneath you will see links to stores that have an array of models that you can insert
 
