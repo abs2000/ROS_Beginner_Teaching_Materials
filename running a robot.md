@@ -64,10 +64,10 @@ In Gazebo, you have a few different things that you can do.
 
 *Sourced from http://gazebosim.org/hotkeys.html*
 
-2) You should be able to see a bar ontop of the 3D viewport in Gazebo as shown:
-![Gazebo top bar](Robot_images/Gazebo_top_bar.png)
-    * The first four options are tools to interact with objects in the 3D environment. 
-      * Firstly, from left to right, the selection mode (shaped as a mouse) allows you to select objects and move the screen. It's shortcut is **Esc**.
+2) You should be able to see a bar ontop of the 3D viewport in Gazebo, as shown below. Each of these icons have different roles and a corresponding keyboard shortcut, which is further described below (from left to right).
+![Gazebo top bar](Robot_images/Gazebo_top_bar.PNG)
+    * Selection mode (shaped as a mouse) allows you to select objects and move the screen. It's shortcut is **Esc**.
+    * Translation Mode (corss shaped) 
     * The next two options are the undo and redo buttons.
     * The next three options are to insert objects should you wish to do so.
     * The following three options are concerned with how the light is rendered (you don't need to worry about that now).
