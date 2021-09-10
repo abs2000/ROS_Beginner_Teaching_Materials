@@ -104,7 +104,7 @@ You should see the robot simulation in your Gazebo window move forward. Within t
 
 *Pressing **Ctrl+C** whilst in a terminal causes the process to be killed off. In this instance, you are stopping the message from being published to the robot telling it to move.*
 
-Once you have stopped the movement press **Ctrl+r** to reset the world to its original state.
+Once you have stopped the movement press **Ctrl+r** (while on Gazebo) to reset the world to its original state.
 
 ### 5. Take control of the Robot
 after pressing **Ctrl+C** or reopening the terminal, enter the following command:
