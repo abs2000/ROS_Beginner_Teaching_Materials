@@ -60,14 +60,14 @@ In Gazebo, you have a few different things that you can do.
 
 2) You should be able to see a bar ontop of the 3D viewport in Gazebo as shown:
 ![3dnavbar](3dnavbar.png)
-* The first four options are tools to inteact  with objects in the 3D environment. The mouse to select objects and, once selected, using the other three tools to either move, rotate or scale the object.
-* The next two options are the previous and forward buttons
-* The next three options are to insert objects should you wish to do so
-* The following three options are concerned with how the light is rendered (you don't need to worry about that now)
-* The two options that follows are the 'copy' and 'paste' options should you wish to copy and paste objects 
-* The two options following this is the allign and magnet tool
-* The following cube icon is the perception tool this enabling you to view the port from any side and to view the objects in either perspective mode or orthographic mode
-* The last four options enables you to take a screenshot (picture of the world), log results, plot stuff and record a video of the simulation (mp4 option included)
+    * The first four options are tools to inteact  with objects in the 3D environment. The mouse to select objects and, once selected, using the other three tools to either move, rotate or scale the object.
+    * The next two options are the previous and forward buttons
+    * The next three options are to insert objects should you wish to do so
+    * The following three options are concerned with how the light is rendered (you don't need to worry about that now)
+    * The two options that follows are the 'copy' and 'paste' options should you wish to copy and paste objects 
+    * The two options following this is the allign and magnet tool
+    * The following cube icon is the perception tool this enabling you to view the port from any side and to view the objects in either perspective mode or orthographic mode
+    * The last four options enables you to take a screenshot (picture of the world), log results, plot stuff and record a video of the simulation (mp4 option included)
 
 3) In Gazebo, you can insert different objects from a given library. In the left hand pane, navigate the mouse to 'insert' and underneath you will see links to stores that have an array of models that you can insert
 
