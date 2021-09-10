@@ -122,7 +122,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 You should be able to see the following output:
 ![teleop](teleop.png)
 
-At this point, you can use your keyboard to control the husky simulation using the keys noted above. The keys **"u"**, **"i"**, **"o"**, **"j"**, **"k"**, **"l"**, **"m"**, **","** and **"."** control the movement of the Robot, while **"q/z"**, **"w/x"** and **"e/c"** increase and decrease speed in 3 different ways respectively, as seen in the image above.
+At this point, you can use your keyboard to control the husky simulation using the keys noted above. The keys **"u"**, **"i"**, **"o"**, **"j"**, **"k"**, **"l"**, **"m"**, **","** and **"."** control the movement of the Robot, while **"q/z"**, **"w/x"** and **"e/c"** increase and decrease speed in 3 different ways respectively, as seen in the image above. **You will be able to use the controls while this terminal is open**.
 
 ## Tutorial Exercises
 
