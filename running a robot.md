@@ -66,15 +66,18 @@ In Gazebo, you have a few different things that you can do.
 
 2) You should be able to see a bar ontop of the 3D viewport in Gazebo, as shown below. Each of these icons have different roles and a corresponding keyboard shortcut, which is further described below (from left to right).
 ![Gazebo top bar](Robot_images/Gazebo_top_bar.PNG)
-    * Selection mode (shaped as a mouse) allows you to select objects and move the screen. It's shortcut is **Esc**.
-    * Translation Mode (corss shaped) 
-    * The next two options are the undo and redo buttons.
-    * The next three options are to insert objects should you wish to do so.
-    * The following three options are concerned with how the light is rendered (you don't need to worry about that now).
-    * The two options that follows are the 'copy' and 'paste' options should you wish to copy and paste objects.
-    * The two options following this is the allign and magnet tool.
+    * Selection mode icon (shaped as a mouse) allows you to select objects and move the screen. It's shortcut is **Esc**.
+    * Translation Mode icon (cross shaped) allows you to move the object. It's shortcut is **T**.
+    * Rotation Mode icon allows you to rotate the object. It's shortcut is **R**.
+    * Scale Mode icon allows you to scale the object. It's shortcut is **S**.
+    * The next two icons are the undo and redo buttons.
+    * The following three icons are to insert objects should you wish to do so.
+    * The Next three icons give you 3 ways to change the lighting. 
+    * The two icons that follow this are the 'copy' and 'paste' options.
+    * Next is the align tool that allows you to select 2 object you want to be aligned with each other.
+    * Then the Snap mode icon.
     * The following cube icon is the perception tool this enabling you to view the port from any side and to view the objects in either perspective mode or orthographic mode.
-    * The last four options enables you to take a screenshot (picture of the world), log results, plot stuff and record a video of the simulation (mp4 option included).
+    * The last four options enables you to take a screenshot (picture of the world), log results, plot data and record a video of the simulation (mp4 option included).
 
 3) In Gazebo, you can insert different objects from a given library. In the left hand pane, navigate the mouse to 'insert' and underneath you will see links to stores that have an array of models that you can insert
 
