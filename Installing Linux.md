@@ -3,7 +3,7 @@
 **This is part 1 of a 4 part series going through the installation and application of Linux and the robotic operating system(ROS). These documents were created by Toluwani Soboyejo, Abdu-Allah Awad and Jessica Paterson. If you find mistakes in the documents please let us know so changes can be made.**
 
 # Using GitHub
-You may notice that this series of guides are being hosted on GitHub. GitHub is a web-based version-control and collaboration platform for software developers. This allows us to create a space for all of the necessary documents, images and information while giving you (our viewers) quick and easy access to all of that information **(for free)**. 
+You may notice that this series of guides are being hosted on GitHub. GitHub is a web-based version-control and collaboration platform for software developers. This allows us to create a space for all of the necessary documents, images and information while giving you (our readers) quick and easy access to all of that information **(for free)**. 
 
 **Key functions:**
 * You will notice that there is a series of 3 parrallel lines in the top left corner of the box this document is in. Press this to easily navigate through the document to the sections you need.
