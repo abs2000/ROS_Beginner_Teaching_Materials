@@ -91,7 +91,7 @@ source /opt/ros/melodic/setup.bash
  ```
 
  The output of which should be the following:
- ![rosUpdate](rosUpdate.png)
+ ![rosUpdate](ROS_guide_pics/rosUpdate.png)
 
 ## Checking that you have ROS installed correctly
 
@@ -101,7 +101,7 @@ echo $PATH
 ```
   * If set up correctly then the outcome should be something similar to: 
 
-![echoPATH](echoPATH.png)
+![echoPATH](ROS_guide_pics/echoPATH.png)
 
 
 * Completing all the sections up to **Section 5** means that now you should have ROS downloaded. You can check this by typing out the following command in a new terminal:
@@ -109,7 +109,7 @@ echo $PATH
 roscore
 ```
   * The outcome of this should be as follows:
-![roscore](roscore.png)
+![roscore](ROS_guide_pics/roscore.png)
 
 **Notice: After getting this output you will no longer be able to type in the terminal, so you need to shutdown the roslaunch server with ctrl-c.**
 
@@ -119,4 +119,4 @@ printenv | grep ROS
 ```
   * The outcome of which should be:
 
-![greprOS](grepROS.png)
+![greprOS](ROS_guide_pics/grepROS.png)
