@@ -50,7 +50,7 @@ You will get the error below upon running the line above, this is completely nor
 However if you get additional errors, we have noted the errors we found and suitable fixes for them at this link [Known Errors](GazeboErrors.md). We have found that you will likely have these additional error if you chose the **virtual machine route**.
 
 The following window should appear:
-![gazebointro](gazebointro.png)
+![gazebointro](Robot_images/gazebointro.png)
 
 In front of you is the Gazebo program with a robot spawned into an empty world. **You must ensure the terminal you used to launch Gazebo is left open, to stop Gazebo from closing**. You can minimize the terminal to keep it out of the way. 
 
@@ -60,7 +60,7 @@ In Gazebo, you have a few different things that you can do.
 
 1) You can navigate the 3D view port by using the mouse as shown in the following picture:
 
-![gazebomouse](gazebomouse.png)
+![gazebomouse](Robot_images/gazebomouse.png)
 
 *Sourced from http://gazebosim.org/hotkeys.html*
 
@@ -83,7 +83,7 @@ In Gazebo, you have a few different things that you can do.
 
 3) In Gazebo, you can insert different objects from a given library. In the left hand pane, navigate the mouse to 'insert' and underneath you will see links to stores that have an array of models that you can insert
 
-![insert models](insert_models.png)
+![insert models](Robot_images/insert_models.png)
 
 ### 4. Move the Robot with Software
 In a new a terminal, type the following command:
@@ -120,7 +120,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 *The command **rosrun** is used to run a single node. It is followed by the package name that it is supposed to locate (**teleop_twist_keyboard**) and then the node code (in this case it is the python code **teleop_twist_keyboard.py**).*
 
 You should be able to see the following output:
-![teleop](teleop.png)
+![teleop](Robot_images/teleop.png)
 
 At this point, you can use your keyboard to control the husky simulation using the keys noted above. The keys **"u"**, **"i"**, **"o"**, **"j"**, **"k"**, **"l"**, **"m"**, **","** and **"."** control the movement of the Robot, while **"q/z"**, **"w/x"** and **"e/c"** increase and decrease speed in 3 different ways respectively, as seen in the image above. **You will be able to use the controls while this terminal is open**.
 
