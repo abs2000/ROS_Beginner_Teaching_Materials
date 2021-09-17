@@ -2,8 +2,8 @@
 
 Aims:
 
-* Understand the basics of each of the file types in your repository 
-* Know where to go to learn how to develop/create your own files
+* Be familiar with some of the main file types in your repository
+* Know where to go to learn how to develop/create your own nodes and files
 * Know how you would go about making your own package
 
 ## Concepts to understand
@@ -12,7 +12,7 @@ We know that a workspace is used as an environment to edit packages. Packages in
 
 When you launch ROS
 
-## Investigating the Files further:
+## Navigating your files:
 
 Open a terminal and navigate the terminal to where you cloned the jackal repository.
 
