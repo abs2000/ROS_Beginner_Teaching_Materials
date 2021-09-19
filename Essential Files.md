@@ -98,17 +98,17 @@ Using the workspace, you would open a terminal and enter the following commands:
 
 ```
 cd ~/workspace/src
-catkin_create_pkg [package_name] [dependecy 1] [dependency 2] [dependency 3]
+catkin_create_pkg package_101 roscpp std_msgs
 ```
-*The command catkin_create_pkg creates the package and the moving_forwards details the name of the package while both roscpp and std_msgs are the dependencies of the package.*
+*The command **catkin_create_pkg** creates the package and the **package_101** details the name of the package. **roscpp** and **std_msgs** details the dependencies.*
 
 Dependency here refers to ROS specific software packages that are needed to build the package in the previous line of code we had **roscpp** and **std_msgs** as dependencies - ie the package we are creating is dependent on the **roscpp** software package (special packages in the ROS system directory)and the std_msg software package to write the code of our nodes.
 
-*The roscpp software package is an implementation that will allow us to use c++ code to interface with the topics, services and parameters, std_msgs is the software package that allows us to use the familiar data types (eg string, uint32, int etc...). If you wanted to use python code for this, you would replace roscpp with rospy.*
+*The roscpp software package is an implementation that will allow us to use C++ code to interface with the topics, services and parameters, std_msgs is the software package that allows us to use the familiar data types (eg string, uint32, int etc...). If you wanted to use python code for this, you would replace roscpp with rospy.*
 
-If you wanted to write the code for the nodes using python, you would replace **roscpp** with **rospy**.
+If you wanted to write the code for the nodes using python, you would use **rospy** as the dependency instead of  **roscpp**.
 
-To practice writing your own node for the jackal, follow the tutorial on the following page from the section **Writing your own publisher** onwards.
+To practice writing your own node and package for the jackal, follow the tutorial on the following page from the section **Writing your own publisher** onwards.
 
 ## URDF files
 
